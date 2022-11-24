@@ -1,0 +1,22 @@
+.tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    row-gap: 10px;
+
+    list-style: none;
+}
+
+.empty{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 20px;
+    background-color: var(--secondary);
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.empty span{
+    color: #8E154FFF;
+}

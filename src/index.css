@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: blue;
+}
+
+:root {
+  --background: #181820;
+  --background-light: #21212B;
+  --primary: #FFFFFF;
+  --secondary: #f11784;
+  --terciary: #bbbbbb;
+  --green: green;
+}
+
+body, input, button {
+  color: var(--primary);
+  font: 400 16px 'Fredoka', sans-serif;
+  background-color: #141114;
+  background-image: linear-gradient(335deg, black 23px, transparent 23px),
+  linear-gradient(155deg, black 23px, transparent 23px),
+  linear-gradient(335deg, black 23px, transparent 23px),
+  linear-gradient(155deg, black 23px, transparent 23px);
+  background-size: 58px 58px;
+  background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+}
+
+body {
+  background: var(--background);
+}
+
+button:hover {
+  cursor: pointer;
+}

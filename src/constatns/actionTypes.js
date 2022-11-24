@@ -1,0 +1,6 @@
+export const ActionTypes = {
+    ADD_TODO: 'ADD_TODO',
+    CHANGE_TODO: 'CHANGE_TODO',
+    DELETE_TODO: 'DELETE_TODO',
+    CLEAR_TODOS: 'CLEAR_TODOS'
+}
