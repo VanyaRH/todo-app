@@ -217,3 +217,33 @@
         opacity: 1;
     }
 }
+
+@media(max-width: 998px){
+    .sign{
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+}
+
+@media(max-width: 768px){
+    .sign{
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+}
+
+@media(max-width: 578px){
+    .sign{
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@media(max-width: 492px){
+    .sign{
+        transform: translate(-50%, -50%) scale(0.7);
+    }
+}
+
+@media(max-width: 340px){
+    .sign{
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+}
